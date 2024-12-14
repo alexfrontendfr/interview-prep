@@ -1,0 +1,1379 @@
+{
+  "questions": [
+    {
+      "question": "A researcher at the AO Research Institute reports that they cannot receive new emails in Outlook, but they can still send emails. The issue started after connecting to the VPN from home. What should be your first troubleshooting step?",
+      "options": [
+        "Reset the user's Office 365 password immediately and ask them to log in again",
+        "Check Outlook's offline mode status and network connectivity through basic diagnostics",
+        "Create a new Outlook profile and migrate their existing emails",
+        "Escalate the issue directly to the Office 365 administration team"
+      ],
+      "answer": 1,
+      "explanation": "The correct approach starts with basic diagnostics because: This follows the fundamental troubleshooting principle of starting with the simplest possible cause. The issue coinciding with VPN usage suggests a potential connectivity problem. Checking offline mode and network connectivity is non-invasive and doesn't risk data loss. This approach aligns with the emphasis on efficient problem-solving while maintaining productivity. Documentation can begin immediately while performing these basic checks."
+    },
+    {
+      "question": "During an AO course in Davos, a presenter's laptop camera stops working mid-presentation. The camera light is on, but no video appears in MS Teams. Time is critical as this is affecting multiple attendees. What is the most appropriate action?",
+      "options": [
+        "Quickly replace the presenter's laptop with a pre-configured spare device from IT stock",
+        "Attempt to reinstall camera drivers while the presenter waits",
+        "Switch the presentation to phone-based Teams access as a workaround",
+        "End the meeting and reschedule once the issue is resolved"
+      ],
+      "answer": 0,
+      "explanation": "Replacing the device with a pre-configured spare is correct because it maintains business continuity, follows the principle of rapid service restoration, allows for proper problem investigation without extending downtime, demonstrates proper preparation, and aligns with the organization's commitment to educational excellence."
+    },
+    {
+      "question": "A new research team member needs access to multiple systems including Jira, Confluence, and specific Azure resources. What is the correct procedure for setting up their access?",
+      "options": [
+        "Grant all permissions individually as requested by their supervisor",
+        "Use the standard user template for their department and adjust based on written approval",
+        "Copy permissions from a colleague in the same role",
+        "Grant full access to all systems initially and remove unnecessary permissions later"
+      ],
+      "answer": 1,
+      "explanation": "Using a standard template with documented adjustments ensures compliance with security best practices and access management policies, creates a clear audit trail of permissions granted, follows the principle of least privilege, standardizes the onboarding process, and allows for proper documentation in the ticketing system."
+    },
+    {
+      "question": "A user at the AO Innovation Translation Center reports their Windows laptop is running extremely slowly and occasionally freezing. The laptop is less than a year old. What should be your initial response?",
+      "options": [
+        "Begin full malware scan immediately while user continues working",
+        "Remote in to check resource usage and collect system diagnostics data",
+        "Reimage the laptop with a fresh Windows installation",
+        "Schedule the user for a laptop replacement next week"
+      ],
+      "answer": 1,
+      "explanation": "Remote diagnostics as a first step allows for immediate investigation without disrupting the user, provides concrete data for troubleshooting, can identify resource-heavy processes or potential issues, enables proper documentation from the start, and follows the systematic troubleshooting approach."
+    },
+    {
+      "question": "You receive a ticket about adding a visiting surgeon to access the AO Surgery Reference platform for a three-month research project. What is the correct process?",
+      "options": [
+        "Create a permanent account with an automatic review date after three months",
+        "Set up a temporary account with role-based access and automatic expiration",
+        "Add them to an existing research group with manual removal after three months",
+        "Grant access through a sponsor's credentials for the duration"
+      ],
+      "answer": 1,
+      "explanation": "Setting up a temporary account with automatic expiration ensures automatic access removal without manual intervention, provides clear audit trail of access duration, follows principle of least privilege, complies with security best practices, and enables proper documentation and tracking."
+    },
+    {
+      "question": "During system maintenance, you notice several users in the research department have outdated versions of critical software. What is the best approach to address this?",
+      "options": [
+        "Push immediate updates to all affected systems during work hours",
+        "Schedule automated updates for the next weekend and notify users",
+        "Create a manual update schedule based on each user's availability",
+        "Send users instructions to update their own systems when convenient"
+      ],
+      "answer": 1,
+      "explanation": "Scheduling automated updates with notification minimizes disruption to research activities, ensures consistent application of updates, provides users time to prepare and save work, follows change management best practices, and creates proper documentation trail."
+    },
+    {
+      "question": "A user based in the Zizers office cannot access Confluence after a recent password change. They need immediate access for an upcoming presentation. What should be your first action?",
+      "options": [
+        "Reset their password again and provide it via phone",
+        "Check their Azure AD synchronization status and group memberships",
+        "Create a temporary local account with limited access",
+        "Request they use a colleague's credentials for the presentation"
+      ],
+      "answer": 1,
+      "explanation": "Checking Azure AD sync and group memberships addresses potential synchronization issues between systems, verifies proper access rights are in place, follows systematic troubleshooting approach, maintains security protocols, and enables proper documentation of the issue."
+    },
+    {
+      "question": "A user working with multiple large Excel sheets for research data analysis reports their Excel keeps 'freezing for a few seconds' whenever they try to filter or sort data. What's your first action?",
+      "options": [
+        "Increase Excel's memory allocation immediately",
+        "Check workbook size and running processes while gathering file details",
+        "Split the data into multiple smaller files",
+        "Move the files to a different drive"
+      ],
+      "answer": 1,
+      "explanation": "Checking workbook size and processes is best practice because it identifies actual resource constraints, checks file optimization possibilities, follows performance troubleshooting steps, enables informed solution, and allows for user education on optimal data handling practices."
+    },
+    {
+      "question": "Multiple users report getting 'Your mailbox is almost full' warnings in Outlook, but they've already deleted many emails. What's your first response?",
+      "options": [
+        "Increase their mailbox quota",
+        "Check actual storage usage and search for large items",
+        "Enable auto-archive immediately",
+        "Create a new mail profile"
+      ],
+      "answer": 1,
+      "explanation": "Checking actual storage usage and searching for large items is correct because it helps identify hidden items that often cause this issue, examines attachment storage which is a common culprit, reviews cache files that can accumulate, and enables proper documentation of the resolution process."
+    },
+    {
+      "question": "A team member from AO Education Institute comes to your desk saying none of their saved passwords are working after a Windows update. Other team members need access to their shared resources. How do you respond?",
+      "options": [
+        "Begin resetting all their passwords one by one",
+        "Check credential manager status and recent system changes",
+        "Revert the Windows update immediately",
+        "Have them log in using a colleague's credentials temporarily"
+      ],
+      "answer": 1,
+      "explanation": "Checking credential manager status and system changes is best practice because it addresses root cause systematically, maintains security protocols, enables quick resolution if credential cache issue, allows user to provide immediate feedback, and documents correlation with system update."
+    },
+    {
+      "question": "A researcher reports that every time they try to save their work to OneDrive, they get a 'File In Use' error, but they're the only one working on it. What's your first action?",
+      "options": [
+        "Force close all Office applications",
+        "Check for hidden processes and temp files while gathering details",
+        "Move the file to local storage",
+        "Create a new copy of the file"
+      ],
+      "answer": 1,
+      "explanation": "Checking for hidden processes and temp files is correct because it addresses common causes of file locks, investigates potential sync conflicts, and follows systematic troubleshooting while maintaining data integrity and enabling proper documentation."
+    },
+    {
+      "question": "During peak work hours, several users report that their Teams calls keep dropping or having audio issues. What's your first action?",
+      "options": [
+        "Switch everyone to mobile Teams",
+        "Check network utilization and QoS settings while gathering incident patterns",
+        "Restart the Teams application for all users",
+        "Reduce video quality settings"
+      ],
+      "answer": 1,
+      "explanation": "Checking network utilization and QoS settings is the correct approach because it addresses bandwidth contention which is common during peak hours, allows for proper network prioritization, and enables systematic analysis of the root cause."
+    },
+    {
+      "question": "A user reports that their laptop takes 'forever' to start up, and Task Manager shows '100% disk usage' constantly. What's your first step?",
+      "options": [
+        "Defragment the hard drive",
+        "Run disk cleanup immediately",
+        "Check startup programs and system services while monitoring disk activity",
+        "Reinstall Windows"
+      ],
+      "answer": 2,
+      "explanation": "Checking startup programs and monitoring disk activity is correct because it identifies common culprits like Windows Search or Superfetch services, allows for process impact analysis, and follows systematic performance troubleshooting methodology."
+    },
+    {
+      "question": "Multiple users can't print after connecting to VPN, getting 'Printer not accessible' errors. What's your first action?",
+      "options": [
+        "Disconnect and reconnect VPN",
+        "Reinstall all printer drivers",
+        "Switch to PDF printing",
+        "Check VPN split tunneling and printer routing while gathering details"
+      ],
+      "answer": 3,
+      "explanation": "Checking VPN split tunneling and printer routing is correct because it addresses common VPN printing issues, verifies network path resolution, and follows proper network troubleshooting procedures while maintaining security protocols."
+    },
+    {
+      "question": "A user reports that their Outlook calendar shows incorrect meeting times after traveling to a different time zone. What's your first step?",
+      "options": [
+        "Switch to web Outlook",
+        "Reset their Windows time",
+        "Check time zone settings in both Windows and Outlook",
+        "Recreate all calendar items"
+      ],
+      "answer": 2,
+      "explanation": "Checking time zone settings in both Windows and Outlook is correct because it addresses the root cause of time display issues, ensures proper synchronization between system and application settings, and follows systematic troubleshooting procedures."
+    },
+    {
+      "question": "A researcher cannot open recent AutoCAD files, getting 'Drawing Recovery' messages. What's your first action?",
+      "options": [
+        "Convert files to different format",
+        "Repair AutoCAD installation",
+        "Restore files from backup",
+        "Check file locations and temporary folders while verifying AutoCAD settings"
+      ],
+      "answer": 3,
+      "explanation": "Checking file locations and temporary folders is correct because it addresses common AutoCAD file recovery issues, verifies file integrity, and follows proper data recovery procedures while maintaining work continuity."
+    },
+    {
+      "question": "Two team members come to your desk arguing about missing shared files. One claims the other deleted important documents from their project folder. What's your immediate response?",
+      "options": [
+        "Ask their supervisor to mediate the situation",
+        "Create new sharing permissions immediately",
+        "Check version history and access logs while calming the situation",
+        "Grant both users full access to restore files"
+      ],
+      "answer": 2,
+      "explanation": "Checking version history and access logs while calming the situation is correct because it provides factual basis for resolution, maintains professional environment, follows data protection procedures, and enables proper documentation while de-escalating interpersonal conflict."
+    },
+    {
+      "question": "During a hardware upgrade rollout, multiple users report their docking stations aren't charging laptops or detecting monitors. What's your first action?",
+      "options": [
+        "Order different dock models",
+        "Switch to direct connections",
+        "Replace all docking stations",
+        "Check firmware versions and power delivery specs while gathering model details"
+      ],
+      "answer": 3,
+      "explanation": "Checking firmware versions and power delivery specs is correct because it addresses common compatibility issues after hardware upgrades, verifies power specifications, and follows proper hardware troubleshooting procedures while maintaining productivity."
+    },
+    {
+      "question": "Multiple users report their Azure Virtual Desktop sessions are extremely slow during peak hours. What's your first action?",
+      "options": [
+        "Implement session limitations",
+        "Increase VM sizes immediately",
+        "Monitor resource utilization and session host metrics while gathering usage patterns",
+        "Redistribute users to different hosts"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring resource utilization and session metrics is correct because it enables data-driven decision making, identifies resource contention issues, and follows proper performance troubleshooting procedures while maintaining service quality."
+    },
+    {
+      "question": "Users report that recently deployed laptops are randomly disconnecting from Wi-Fi, particularly in certain office areas. What's your first step?",
+      "options": [
+        "Reset network settings on all devices",
+        "Replace all wireless cards",
+        "Switch to wired connections",
+        "Check wireless survey data and driver versions while mapping affected locations"
+      ],
+      "answer": 3,
+      "explanation": "Checking wireless survey data and mapping affected locations is correct because it helps identify signal strength issues, verifies driver compatibility, and follows systematic network troubleshooting while enabling proper documentation of the problem pattern."
+    },
+    {
+      "question": "During an international surgical training session, a presenter comes to your desk reporting that the video streaming quality to remote sites is degrading. Multiple remote locations are waiting. What's your first action?",
+      "options": [
+        "Switch all remote sites to audio-only mode",
+        "Restart the streaming server immediately",
+        "Check bandwidth utilization and streaming metrics while coordinating with remote IT teams",
+        "Reduce video quality settings for all participants"
+      ],
+      "answer": 2,
+      "explanation": "Checking bandwidth utilization and coordinating with remote teams is correct because it enables data-driven decision making, maintains educational quality, coordinates with all stakeholders, and follows systematic troubleshooting while preserving the professional learning environment."
+    },
+    {
+      "question": "A senior researcher approaches your desk visibly upset because their machine learning model training stopped overnight due to a system update. They've lost 12 hours of processing. How do you respond?",
+      "options": [
+        "Schedule the update for next weekend instead",
+        "Suggest running the model on a different computer",
+        "Immediately disable automatic updates on their workstation",
+        "Check system logs and recovery points while gathering process details"
+      ],
+      "answer": 3,
+      "explanation": "Checking system logs and recovery points is correct because it addresses the immediate concern professionally, gathers necessary technical information, enables root cause analysis, and follows proper incident management while planning for future prevention."
+    },
+    {
+      "question": "A surgeon walks up during lunch, unable to access their presentation materials for an afternoon webinar. They're getting 'Invalid Certificate' errors on all browsers. What's your first step?",
+      "options": [
+        "Install a different browser immediately",
+        "Override certificate warnings manually",
+        "Check system time and certificate validity while preparing backup options",
+        "Clear all browser caches and certificates"
+      ],
+      "answer": 2,
+      "explanation": "Checking system time and certificate validity while preparing backup options is correct because it addresses the root cause systematically, maintains security protocols, and enables proper documentation while ensuring business continuity."
+    },
+    {
+      "question": "During an AO course setup in Davos, you notice system logs showing multiple failed login attempts from various accounts. What is your immediate thought process and action?",
+      "options": [
+        "Disable remote access temporarily",
+        "Lock all affected accounts and reset passwords",
+        "Implement additional authentication requirements immediately",
+        "Monitor and document the pattern while checking for geographical anomalies"
+      ],
+      "answer": 3,
+      "explanation": "Monitoring and documenting patterns while checking geographical anomalies is correct because it allows for proper threat assessment, maintains service availability, follows security incident response procedures, and enables comprehensive analysis before taking action."
+    },
+    {
+      "question": "A research team urgently approaches about network storage being full during a critical data collection phase. They need immediate solution to continue their work. What's your first action?",
+      "options": [
+        "Move their data to a temporary location",
+        "Ask them to delete unnecessary files",
+        "Analyze space usage and immediate alternatives while gathering project details",
+        "Increase their quota immediately"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing space usage and gathering project details is correct because it balances immediate needs with proper planning, maintains data integrity, follows capacity management procedures, and enables proper documentation of long-term needs."
+    },
+    {
+      "question": "An IT colleague from Zizers office comes to your desk in Davos with a malfunctioning laptop that has sensitive patient data. They need files transferred to continue working. What's your response?",
+      "options": [
+        "Allow them to manually copy needed files",
+        "Use personal external drive for quick transfer",
+        "Copy files directly to a new laptop",
+        "Verify identity and data encryption status while following transfer protocols"
+      ],
+      "answer": 3,
+      "explanation": "Verifying identity and checking encryption status while following transfer protocols is correct because it maintains data protection protocols, verifies security requirements, follows proper transfer procedures, and ensures secure handling of sensitive data."
+    },
+    {
+      "question": "During a morning meeting, a department head comes to your desk because they can't access SharePoint sites after changing their phone, affecting their multi-factor authentication. What's your response?",
+      "options": [
+        "Switch them to email-based verification",
+        "Use backup codes to grant immediate access",
+        "Verify identity and reset MFA configuration while explaining process",
+        "Disable MFA for their account temporarily"
+      ],
+      "answer": 2,
+      "explanation": "Verifying identity and resetting MFA configuration is correct because it maintains security protocols, provides immediate solution, follows authentication procedures, and enables proper documentation while ensuring compliance with security policies."
+    },
+    {
+      "question": "A team member rushes to your desk because their Confluence page keeps showing error 503 while trying to publish critical documentation needed for an audit. What's your first action?",
+      "options": [
+        "Switch to offline documentation temporarily",
+        "Create a new page and manually copy content",
+        "Clear their browser cache and cookies",
+        "Check system status and recent changes while preparing alternative access"
+      ],
+      "answer": 3,
+      "explanation": "Checking system status and preparing alternatives is correct because it checks for system-wide issues, prepares backup solutions, follows incident procedures, and enables proper documentation while maintaining audit compliance requirements."
+    },
+    {
+      "question": "A team member stops by saying Outlook keeps asking for their password every few minutes, interrupting their work. What's your first action?",
+      "options": [
+        "Remove and recreate their Outlook profile",
+        "Reset their Windows password immediately",
+        "Check their credential manager and Office 365 token status",
+        "Switch them to web-based Outlook temporarily"
+      ],
+      "answer": 2,
+      "explanation": "Checking credential manager and token status is correct because it addresses the most common cause, performs a non-disruptive check, maintains email access, and preserves existing settings while enabling quick resolution."
+    },
+    {
+      "question": "A researcher mentions their computer is running 'really slow' after opening multiple large Excel files with research data. What's your first step?",
+      "options": [
+        "Suggest working with smaller data sets",
+        "Clear temporary files and browser cache",
+        "Check resource usage and running processes while gathering details",
+        "Restart the computer immediately"
+      ],
+      "answer": 2,
+      "explanation": "Checking resource usage and running processes is correct because it identifies actual resource constraints, helps understand usage patterns, enables targeted solutions, and provides an educational opportunity while maintaining proper documentation."
+    },
+    {
+      "question": "A new employee comes to the desk saying they can't print to any office printer. They can see the printers but get 'Access Denied' messages. What's your first response?",
+      "options": [
+        "Add them manually to each printer",
+        "Create a new print queue for them",
+        "Verify group membership and print spooler status",
+        "Reinstall all printer drivers"
+      ],
+      "answer": 2,
+      "explanation": "Verifying group membership and print spooler status is correct because it checks the most common cause of access issues, follows proper access management protocols, and provides a systematic approach to resolving printer access while maintaining security policies."
+    },
+    {
+      "question": "A user reports they cannot find a file they were working on yesterday in their OneDrive folder. What's your first action?",
+      "options": [
+        "Create a new file from backup",
+        "Restore their entire OneDrive to yesterday",
+        "Search local and cloud locations while gathering file details",
+        "Check recycle bin and version history immediately"
+      ],
+      "answer": 2,
+      "explanation": "Searching local and cloud locations while gathering details is comprehensive because it checks all possible locations where the file might exist, maintains data integrity, and follows a systematic approach to file recovery."
+    },
+    {
+      "question": "During a live international AO course, you receive multiple reports of conference room Wi-Fi instability affecting remote participants. What's your immediate response?",
+      "options": [
+        "Reset all wireless access points",
+        "Switch to cellular hotspots",
+        "Monitor network metrics and implement QoS rules while coordinating with facility IT",
+        "Move participants to different rooms"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring network metrics and implementing QoS rules is correct because it enables data-driven problem solving, maintains conference quality, and follows systematic network troubleshooting while ensuring minimal disruption to the course."
+    },
+    {
+      "question": "A department head reports that their critical PowerPoint presentation keeps crashing when trying to insert large medical images. The presentation is needed in two hours. What's your first step?",
+      "options": [
+        "Switch to a different presentation software",
+        "Compress all images before insertion",
+        "Check available system resources and PowerPoint settings while preparing a backup workstation",
+        "Create a new presentation from scratch"
+      ],
+      "answer": 2,
+      "explanation": "Checking system resources and preparing a backup workstation is correct because it addresses potential resource constraints, ensures business continuity, and follows systematic troubleshooting while maintaining presentation quality."
+    },
+    {
+      "question": "Multiple surgeons report they can't access specific surgical technique videos in the AO video library after a recent platform update. What's your first action?",
+      "options": [
+        "Revert the platform update immediately",
+        "Provide direct file downloads as alternative",
+        "Verify content permissions and CDN status while gathering access patterns",
+        "Create temporary user accounts"
+      ],
+      "answer": 2,
+      "explanation": "Verifying content permissions and CDN status is correct because it systematically checks access control systems, identifies potential distribution issues, and follows proper troubleshooting procedures while maintaining security protocols."
+    },
+    {
+      "question": "A researcher's workstation blue screens repeatedly while processing large datasets. They need a solution before an important analysis deadline tomorrow. What's your first response?",
+      "options": [
+        "Reinstall Windows immediately",
+        "Move their work to a different computer",
+        "Check system logs and memory diagnostics while preparing a backup workstation",
+        "Run antivirus scans"
+      ],
+      "answer": 2,
+      "explanation": "Checking system logs and memory diagnostics while preparing a backup workstation is correct because it enables proper diagnosis of the root cause, ensures business continuity, and follows systematic troubleshooting procedures."
+    },
+    {
+      "question": "After a power outage, several users in the research department can't connect to network drives, but internet access works fine. What's your first step?",
+      "options": [
+        "Reboot all affected computers",
+        "Reset network passwords",
+        "Verify domain controller status and network services while gathering affected user details",
+        "Recreate network mappings"
+      ],
+      "answer": 2,
+      "explanation": "Verifying domain controller status and network services is correct because it addresses potential authentication issues after power loss, follows systematic network troubleshooting, and enables proper documentation of the incident."
+    },
+    {
+      "question": "During a critical data backup process, the backup system reports 'insufficient storage' errors. The backup needs to complete within the maintenance window. What's your immediate action?",
+      "options": [
+        "Cancel the backup and reschedule",
+        "Switch to a different backup solution",
+        "Analyze backup storage allocation and cleanup opportunities while monitoring backup progress",
+        "Compress the backup data"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing backup storage and cleanup opportunities is correct because it addresses the immediate storage constraint, maintains data protection requirements, and follows proper backup management procedures while ensuring completion within the maintenance window."
+    },
+    {
+      "question": "A team member in the AO Research Institute reports their specialized research software is throwing licensing errors after a recent system update. What's your first response?",
+      "options": [
+        "Uninstall and reinstall the software",
+        "Revert the system update",
+        "Check license server status and software compatibility while gathering error details",
+        "Request a new license key"
+      ],
+      "answer": 2,
+      "explanation": "Checking license server status and software compatibility is correct because it systematically investigates the licensing infrastructure, maintains software functionality, and follows proper troubleshooting procedures while minimizing research disruption."
+    },
+    {
+      "question": "Multiple users report that the shared network scanner is not sending scanned documents to their email. What's your first action?",
+      "options": [
+        "Reboot the scanner",
+        "Update scanner firmware",
+        "Verify SMTP settings and email relay status while checking scanner logs",
+        "Configure alternative scanning methods"
+      ],
+      "answer": 2,
+      "explanation": "Verifying SMTP settings and email relay status is correct because it systematically checks the email delivery infrastructure, maintains scanning functionality, and follows proper troubleshooting procedures while enabling proper documentation."
+    },
+    {
+      "question": "A researcher can't open a secure PDF file containing patient data, getting a 'Certificate Invalid' error. What's your first step?",
+      "options": [
+        "Download an alternative PDF reader",
+        "Request a new copy of the file",
+        "Verify digital certificate status and security settings while documenting access attempts",
+        "Convert the PDF to a different format"
+      ],
+      "answer": 2,
+      "explanation": "Verifying certificate status and security settings is correct because it maintains data security protocols, follows systematic troubleshooting for secure documents, and ensures proper handling of sensitive patient information while documenting the process."
+    },
+    {
+      "question": "During an AO course setup, the presentation system fails to detect any wireless presenters. Multiple presenters are affected. What's your first action?",
+      "options": [
+        "Replace all wireless presenters",
+        "Switch to wired connections",
+        "Check receiver configurations and interference patterns while preparing backup devices",
+        "Use mobile devices for presentations"
+      ],
+      "answer": 2,
+      "explanation": "Checking receiver configurations and interference patterns is correct because it systematically investigates the root cause, ensures presentation continuity, and follows proper troubleshooting procedures while maintaining course quality."
+    },
+    {
+      "question": "A team member reports that their laptop battery drains extremely quickly after a recent software deployment. What's your first response?",
+      "options": [
+        "Order a replacement battery",
+        "Roll back all recent software changes",
+        "Analyze power usage patterns and application impact while gathering system logs",
+        "Enable maximum power saving mode"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing power usage patterns and application impact is correct because it identifies potential software-related power issues, follows systematic troubleshooting, and enables proper documentation while maintaining productivity."
+    },
+    {
+      "question": "Multiple users report intermittent freezing in Confluence while editing large documents. What's your first step?",
+      "options": [
+        "Clear browser caches for all users",
+        "Switch to offline editing",
+        "Monitor system resources and browser performance while collecting error patterns",
+        "Disable rich text editing"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring system resources and browser performance is correct because it enables identification of performance bottlenecks, follows systematic troubleshooting, and allows for proper documentation while maintaining collaboration capabilities."
+    },
+    {
+      "question": "A department head can't access their encrypted external drive containing presentation materials for a board meeting. What's your immediate response?",
+      "options": [
+        "Format and recreate the drive",
+        "Provide a new external drive",
+        "Check encryption status and recovery options while preparing alternate access methods",
+        "Copy files from backup immediately"
+      ],
+      "answer": 2,
+      "explanation": "Checking encryption status and recovery options is correct because it maintains data security, follows proper encryption troubleshooting procedures, and ensures business continuity while preserving sensitive data."
+    },
+    {
+      "question": "During a video conference, multiple participants report echo and audio feedback issues. What's your first action?",
+      "options": [
+        "Mute all participants",
+        "End and restart the meeting",
+        "Analyze audio settings and hardware configurations while gathering affected user details",
+        "Switch to phone audio only"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing audio settings and hardware configurations is correct because it systematically identifies the source of audio issues, maintains meeting quality, and follows proper troubleshooting procedures while minimizing disruption."
+    },
+    {
+      "question": "A researcher reports that their virtual machine keeps shutting down unexpectedly during long computations. What's your first step?",
+      "options": [
+        "Create a new virtual machine",
+        "Increase resource allocation immediately",
+        "Monitor resource utilization and host performance while gathering computation details",
+        "Move computations to physical hardware"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring resource utilization and host performance is correct because it identifies potential resource constraints, follows systematic virtualization troubleshooting, and enables proper documentation while maintaining research continuity."
+    },
+    {
+      "question": "Multiple users in the research department report that their automated data backup tasks are failing. What's your first action?",
+      "options": [
+        "Disable automated backups temporarily",
+        "Switch to manual backups",
+        "Verify backup service status and storage availability while collecting error logs",
+        "Create new backup tasks"
+      ],
+      "answer": 2,
+      "explanation": "Verifying backup service status and storage availability is correct because it systematically investigates the backup infrastructure, maintains data protection, and follows proper backup troubleshooting procedures while ensuring research data safety."
+    },
+    {
+      "question": "A user reports that their custom research application crashes when accessing the database. What's your first response?",
+      "options": [
+        "Reinstall the application",
+        "Restore database from backup",
+        "Check database connectivity and application logs while gathering error details",
+        "Create a new database instance"
+      ],
+      "answer": 2,
+      "explanation": "Checking database connectivity and application logs is correct because it systematically investigates the connection issues, maintains data integrity, and follows proper troubleshooting procedures while enabling proper documentation."
+    },
+    {
+      "question": "Several users report that their monitors flicker or go blank when connecting to specific conference room docking stations. What's your first step?",
+      "options": [
+        "Replace all docking stations",
+        "Update graphics drivers immediately",
+        "Test display connections and refresh rates while documenting occurrence patterns",
+        "Switch to direct monitor connections"
+      ],
+      "answer": 2,
+      "explanation": "Testing display connections and refresh rates is correct because it systematically investigates the display issues, follows proper hardware troubleshooting, and enables pattern identification while maintaining productivity."
+    },
+    {
+      "question": "During an international AO surgery broadcast, the streaming system reports degraded performance and increasing latency. What's your first action?",
+      "options": [
+        "End the broadcast and restart the stream",
+        "Reduce streaming quality for all viewers",
+        "Analyze network metrics and streaming parameters while coordinating with CDN providers",
+        "Switch to backup streaming server"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing network metrics and coordinating with CDN providers is correct because it enables real-time performance optimization, maintains broadcast quality, and follows systematic troubleshooting while ensuring minimal disruption to the surgical demonstration."
+    },
+    {
+      "question": "A research team reports their specialized imaging software stops responding when processing large datasets from their new high-resolution microscope. What's your first response?",
+      "options": [
+        "Reinstall the imaging software",
+        "Process smaller batches of images",
+        "Monitor system resources and application behavior while gathering workflow details",
+        "Move processing to a different workstation"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring system resources and application behavior is correct because it identifies potential performance bottlenecks, maintains research workflow, and follows systematic troubleshooting while enabling proper documentation of the issue."
+    },
+    {
+      "question": "Multiple users report that the biometric login system is failing intermittently across different office locations. What's your first step?",
+      "options": [
+        "Disable biometric login for all users",
+        "Reset all biometric credentials",
+        "Check authentication logs and sensor status while mapping affected locations",
+        "Switch to password-only authentication"
+      ],
+      "answer": 2,
+      "explanation": "Checking authentication logs and sensor status is correct because it systematically investigates the authentication infrastructure, maintains security protocols, and enables pattern identification while ensuring proper access management."
+    },
+    {
+      "question": "A department head's encrypted email isn't being received by external research partners, but internal emails work fine. What's your first action?",
+      "options": [
+        "Disable email encryption temporarily",
+        "Create new encryption certificates",
+        "Verify encryption policies and external routing while gathering delivery reports",
+        "Switch to alternative secure communication method"
+      ],
+      "answer": 2,
+      "explanation": "Verifying encryption policies and external routing is correct because it maintains security requirements, follows systematic email troubleshooting, and enables proper documentation while ensuring secure communication continuity."
+    },
+    {
+      "question": "During a critical data migration, the transfer process stops at 75% with a checksum error. What's your immediate response?",
+      "options": [
+        "Restart the entire migration",
+        "Skip the problematic files",
+        "Analyze transfer logs and verify data integrity while preparing recovery options",
+        "Switch to a different transfer method"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing transfer logs and verifying data integrity is correct because it maintains data accuracy, follows proper migration procedures, and enables proper documentation while ensuring successful completion of the migration."
+    },
+    {
+      "question": "Multiple researchers report that their automated analysis scripts are failing after a recent Python environment update. What's your first step?",
+      "options": [
+        "Rollback all Python updates",
+        "Rewrite the analysis scripts",
+        "Check dependency compatibility and environment logs while gathering script details",
+        "Create separate Python environments"
+      ],
+      "answer": 2,
+      "explanation": "Checking dependency compatibility and environment logs is correct because it systematically investigates version conflicts, maintains research workflow, and follows proper troubleshooting procedures while minimizing disruption."
+    },
+    {
+      "question": "A user reports that their laptop performs poorly only when connected to certain docking stations. What's your first action?",
+      "options": [
+        "Replace the laptop",
+        "Avoid using problem docking stations",
+        "Monitor power delivery and performance metrics while testing different configurations",
+        "Update all drivers immediately"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring power delivery and performance metrics is correct because it systematically identifies potential hardware issues, follows proper troubleshooting procedures, and enables pattern recognition while maintaining productivity."
+    },
+    {
+      "question": "Several users report that the office VoIP phones have static and echo during calls after a network upgrade. What's your first step?",
+      "options": [
+        "Replace all VoIP phones",
+        "Switch to mobile phones temporarily",
+        "Check QoS settings and network traffic patterns while gathering call quality metrics",
+        "Revert network changes"
+      ],
+      "answer": 2,
+      "explanation": "Checking QoS settings and network traffic patterns is correct because it systematically investigates voice quality issues, maintains communication quality, and follows proper network troubleshooting procedures while enabling proper documentation."
+    },
+    {
+      "question": "A team member reports their work laptop won't boot after a Windows update, showing a blue screen with 'INACCESSIBLE_BOOT_DEVICE'. What's your first response?",
+      "options": [
+        "Reformat and reinstall Windows",
+        "Roll back the update immediately",
+        "Check boot configuration and driver status while preparing recovery options",
+        "Replace the hard drive"
+      ],
+      "answer": 2,
+      "explanation": "Checking boot configuration and driver status is correct because it systematically investigates boot failures, maintains data integrity, and follows proper troubleshooting procedures while enabling potential recovery without data loss."
+    },
+    {
+      "question": "Multiple users report intermittent disconnections from cloud storage services, affecting file synchronization. What's your first action?",
+      "options": [
+        "Switch to offline file storage",
+        "Reset cloud storage applications",
+        "Analyze network connectivity and sync patterns while gathering error logs",
+        "Recreate user profiles"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing network connectivity and sync patterns is correct because it systematically investigates synchronization issues, maintains data accessibility, and follows proper troubleshooting procedures while enabling proper documentation."
+    },
+    {
+      "question": "During a live AO surgical demonstration, the presenter's wireless microphone starts producing intermittent static and dropouts. What's your first action?",
+      "options": [
+        "Replace the batteries immediately",
+        "Switch to a handheld microphone",
+        "Check RF interference patterns and signal strength while preparing backup audio system",
+        "Use the room's built-in microphone"
+      ],
+      "answer": 2,
+      "explanation": "Checking RF interference patterns and signal strength is correct because it systematically identifies the root cause, maintains presentation quality, and follows proper audio troubleshooting while ensuring continuous communication during the surgical demonstration."
+    },
+    {
+      "question": "A research team reports their automated data analysis pipeline stopped working after a security patch. The pipeline processes sensitive patient data. What's your first response?",
+      "options": [
+        "Roll back the security patch",
+        "Run analysis manually",
+        "Review security logs and application permissions while maintaining compliance protocols",
+        "Disable security features temporarily"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing security logs and application permissions is correct because it maintains security compliance, systematically investigates access issues, and follows proper troubleshooting procedures while ensuring data protection requirements are met."
+    },
+    {
+      "question": "Multiple users report that the facial recognition door access system is failing during peak morning hours. What's your first step?",
+      "options": [
+        "Disable facial recognition entirely",
+        "Issue temporary access cards",
+        "Analyze system logs and environmental factors while monitoring performance patterns",
+        "Reset all user profiles"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing system logs and environmental factors is correct because it systematically investigates performance issues, maintains security protocols, and follows proper troubleshooting procedures while ensuring continuous access control."
+    },
+    {
+      "question": "A department head's laptop is experiencing random shutdowns during important presentations. What's your first action?",
+      "options": [
+        "Replace the laptop immediately",
+        "Switch to presentation mode",
+        "Monitor temperature and power events while gathering system diagnostics",
+        "Disable power management"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring temperature and power events is correct because it systematically identifies potential hardware issues, follows proper diagnostic procedures, and enables proper documentation while maintaining business continuity."
+    },
+    {
+      "question": "During a critical software deployment, several workstations fail to update and show error code 0x80070002. What's your first response?",
+      "options": [
+        "Restart all affected workstations",
+        "Skip failed machines",
+        "Check deployment logs and Windows Update services while documenting affected systems",
+        "Reinstall deployment agent"
+      ],
+      "answer": 2,
+      "explanation": "Checking deployment logs and Windows Update services is correct because it systematically investigates deployment failures, follows proper troubleshooting procedures, and enables proper documentation while maintaining deployment integrity."
+    },
+    {
+      "question": "Multiple users report that SharePoint document versioning isn't working properly after a recent platform update. What's your first step?",
+      "options": [
+        "Disable version control temporarily",
+        "Reset document libraries",
+        "Verify versioning settings and storage quotas while collecting error patterns",
+        "Create new document libraries"
+      ],
+      "answer": 2,
+      "explanation": "Verifying versioning settings and storage quotas is correct because it systematically investigates version control issues, maintains data integrity, and follows proper troubleshooting procedures while ensuring document history preservation."
+    },
+    {
+      "question": "A virtual machine hosting critical research applications becomes unresponsive during peak processing hours. What's your first action?",
+      "options": [
+        "Force restart the VM",
+        "Migrate to different hardware",
+        "Analyze host metrics and resource allocation while preparing failover options",
+        "Create a new VM instance"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing host metrics and resource allocation is correct because it systematically investigates performance issues, maintains service availability, and follows proper virtualization troubleshooting while ensuring research continuity."
+    },
+    {
+      "question": "Multiple users report that the single sign-on system is requiring repeated logins for specific applications. What's your first step?",
+      "options": [
+        "Reset all SSO tokens",
+        "Disable SSO temporarily",
+        "Check authentication flows and session policies while gathering access patterns",
+        "Switch to direct application login"
+      ],
+      "answer": 2,
+      "explanation": "Checking authentication flows and session policies is correct because it systematically investigates SSO issues, maintains security protocols, and follows proper troubleshooting procedures while ensuring user access continuity."
+    },
+    {
+      "question": "A researcher's specialized statistical software crashes when processing large datasets after a recent OS update. What's your first response?",
+      "options": [
+        "Uninstall and reinstall the software",
+        "Roll back the OS update",
+        "Monitor memory usage and application behavior while collecting error logs",
+        "Process smaller data batches"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring memory usage and application behavior is correct because it systematically identifies performance issues, maintains research capabilities, and follows proper troubleshooting procedures while enabling proper documentation."
+    },
+    {
+      "question": "During a system-wide backup, the process stops with 'insufficient permissions' errors on research data folders. What's your immediate action?",
+      "options": [
+        "Skip problematic folders",
+        "Override permissions temporarily",
+        "Review access controls and backup account privileges while maintaining security protocols",
+        "Create new backup jobs"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing access controls and backup account privileges is correct because it systematically investigates permission issues, maintains data security, and follows proper backup procedures while ensuring complete data protection."
+    },
+    {
+      "question": "A mission-critical database server shows signs of storage degradation during regular health checks. What's your first action?",
+      "options": [
+        "Order new storage hardware",
+        "Back up all data immediately",
+        "Analyze SMART data and IO patterns while preparing contingency plans",
+        "Move to backup server"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing SMART data and IO patterns is correct because it enables early problem detection, follows systematic storage troubleshooting procedures, and allows for planned mitigation while maintaining service availability."
+    },
+    {
+      "question": "Multiple users report that the new digital signage system in the conference center displays incorrect content randomly. What's your first step?",
+      "options": [
+        "Reboot all displays",
+        "Disable the system temporarily",
+        "Check content management system logs and scheduling while mapping display behavior",
+        "Reset to default content"
+      ],
+      "answer": 2,
+      "explanation": "Checking CMS logs and scheduling is correct because it systematically investigates content delivery issues, maintains system functionality, and follows proper troubleshooting procedures while ensuring accurate information display."
+    },
+    {
+      "question": "During a critical software upgrade, several servers fail to update and roll back automatically. What's your immediate response?",
+      "options": [
+        "Force the updates manually",
+        "Skip failed servers",
+        "Review upgrade logs and dependency chains while assessing service impact",
+        "Restore from backup"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing upgrade logs and dependency chains is correct because it systematically investigates failure causes, maintains service stability, and follows proper change management procedures while enabling informed decision-making."
+    },
+    {
+      "question": "An executive's laptop reports BitLocker errors after a BIOS update, preventing system boot. What's your first action?",
+      "options": [
+        "Format and reinstall Windows",
+        "Reset BitLocker immediately",
+        "Verify TPM status and recovery options while preparing secure boot solutions",
+        "Disable BitLocker encryption"
+      ],
+      "answer": 2,
+      "explanation": "Verifying TPM status and recovery options is correct because it maintains data security, follows proper encryption troubleshooting procedures, and ensures system integrity while enabling safe recovery options."
+    },
+    {
+      "question": "Multiple users report that video conferencing quality degrades significantly when using virtual backgrounds. What's your first step?",
+      "options": [
+        "Disable virtual backgrounds",
+        "Update conferencing software",
+        "Monitor CPU usage and graphics performance while testing different settings",
+        "Switch to blur-only mode"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring CPU usage and graphics performance is correct because it systematically identifies resource constraints, follows proper performance troubleshooting, and enables optimization while maintaining meeting functionality."
+    },
+    {
+      "question": "A research team reports that their automated data collection scripts fail intermittently during overnight runs. What's your first response?",
+      "options": [
+        "Schedule runs during daytime",
+        "Simplify the scripts",
+        "Analyze execution logs and system resources while mapping failure patterns",
+        "Run scripts manually"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing execution logs and system resources is correct because it systematically investigates failure causes, maintains research continuity, and follows proper troubleshooting procedures while enabling pattern identification."
+    },
+    {
+      "question": "After a network infrastructure upgrade, users report intermittent DNS resolution failures. What's your first action?",
+      "options": [
+        "Revert the network changes",
+        "Reset all DNS caches",
+        "Monitor DNS server performance and query patterns while testing resolution paths",
+        "Switch to backup DNS"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring DNS performance and query patterns is correct because it systematically investigates resolution issues, maintains network functionality, and follows proper troubleshooting procedures while enabling proper documentation."
+    },
+    {
+      "question": "During a remote surgical demonstration, participants report audio sync issues with the video feed. What's your first step?",
+      "options": [
+        "Restart the streaming service",
+        "Switch to audio-only mode",
+        "Check streaming latency and buffer settings while monitoring network metrics",
+        "Reduce video quality"
+      ],
+      "answer": 2,
+      "explanation": "Checking streaming latency and buffer settings is correct because it systematically investigates sync issues, maintains presentation quality, and follows proper streaming troubleshooting while ensuring educational effectiveness."
+    },
+    {
+      "question": "Multiple users report that their mobile devices lose VPN connectivity when moving between office floors. What's your first action?",
+      "options": [
+        "Reset VPN configurations",
+        "Disable mobile VPN access",
+        "Analyze wireless coverage and roaming patterns while gathering connection logs",
+        "Switch to cellular data"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing wireless coverage and roaming patterns is correct because it systematically investigates connectivity issues, maintains mobile access, and follows proper network troubleshooting while enabling proper documentation."
+    },
+    {
+      "question": "A critical application server shows increasing memory usage over time without apparent cause. What's your first response?",
+      "options": [
+        "Restart the server immediately",
+        "Add more memory",
+        "Monitor memory allocation and application behavior while preparing diagnostic captures",
+        "Limit user connections"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring memory allocation and application behavior is correct because it systematically investigates memory issues, maintains service availability, and follows proper troubleshooting procedures while enabling root cause analysis."
+    },
+    {
+      "question": "A mission-critical database server shows signs of storage degradation during regular health checks. What's your first action?",
+      "options": [
+        "Order new storage hardware",
+        "Back up all data immediately",
+        "Analyze SMART data and IO patterns while preparing contingency plans",
+        "Move to backup server"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing SMART data and IO patterns is correct because it enables early problem detection, follows systematic storage troubleshooting procedures, and allows for planned mitigation while maintaining service availability."
+    },
+    {
+      "question": "Multiple users report that the new digital signage system in the conference center displays incorrect content randomly. What's your first step?",
+      "options": [
+        "Reboot all displays",
+        "Disable the system temporarily",
+        "Check content management system logs and scheduling while mapping display behavior",
+        "Reset to default content"
+      ],
+      "answer": 2,
+      "explanation": "Checking CMS logs and scheduling is correct because it systematically investigates content delivery issues, maintains system functionality, and follows proper troubleshooting procedures while ensuring accurate information display."
+    },
+    {
+      "question": "During a critical software upgrade, several servers fail to update and roll back automatically. What's your immediate response?",
+      "options": [
+        "Force the updates manually",
+        "Skip failed servers",
+        "Review upgrade logs and dependency chains while assessing service impact",
+        "Restore from backup"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing upgrade logs and dependency chains is correct because it systematically investigates failure causes, maintains service stability, and follows proper change management procedures while enabling informed decision-making."
+    },
+    {
+      "question": "An executive's laptop reports BitLocker errors after a BIOS update, preventing system boot. What's your first action?",
+      "options": [
+        "Format and reinstall Windows",
+        "Reset BitLocker immediately",
+        "Verify TPM status and recovery options while preparing secure boot solutions",
+        "Disable BitLocker encryption"
+      ],
+      "answer": 2,
+      "explanation": "Verifying TPM status and recovery options is correct because it maintains data security, follows proper encryption troubleshooting procedures, and ensures system integrity while enabling safe recovery options."
+    },
+    {
+      "question": "Multiple users report that video conferencing quality degrades significantly when using virtual backgrounds. What's your first step?",
+      "options": [
+        "Disable virtual backgrounds",
+        "Update conferencing software",
+        "Monitor CPU usage and graphics performance while testing different settings",
+        "Switch to blur-only mode"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring CPU usage and graphics performance is correct because it systematically identifies resource constraints, follows proper performance troubleshooting, and enables optimization while maintaining meeting functionality."
+    },
+    {
+      "question": "A research team reports that their automated data collection scripts fail intermittently during overnight runs. What's your first response?",
+      "options": [
+        "Schedule runs during daytime",
+        "Simplify the scripts",
+        "Analyze execution logs and system resources while mapping failure patterns",
+        "Run scripts manually"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing execution logs and system resources is correct because it systematically investigates failure causes, maintains research continuity, and follows proper troubleshooting procedures while enabling pattern identification."
+    },
+    {
+      "question": "After a network infrastructure upgrade, users report intermittent DNS resolution failures. What's your first action?",
+      "options": [
+        "Revert the network changes",
+        "Reset all DNS caches",
+        "Monitor DNS server performance and query patterns while testing resolution paths",
+        "Switch to backup DNS"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring DNS performance and query patterns is correct because it systematically investigates resolution issues, maintains network functionality, and follows proper troubleshooting procedures while enabling proper documentation."
+    },
+    {
+      "question": "During a remote surgical demonstration, participants report audio sync issues with the video feed. What's your first step?",
+      "options": [
+        "Restart the streaming service",
+        "Switch to audio-only mode",
+        "Check streaming latency and buffer settings while monitoring network metrics",
+        "Reduce video quality"
+      ],
+      "answer": 2,
+      "explanation": "Checking streaming latency and buffer settings is correct because it systematically investigates sync issues, maintains presentation quality, and follows proper streaming troubleshooting while ensuring educational effectiveness."
+    },
+    {
+      "question": "Multiple users report that their mobile devices lose VPN connectivity when moving between office floors. What's your first action?",
+      "options": [
+        "Reset VPN configurations",
+        "Disable mobile VPN access",
+        "Analyze wireless coverage and roaming patterns while gathering connection logs",
+        "Switch to cellular data"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing wireless coverage and roaming patterns is correct because it systematically investigates connectivity issues, maintains mobile access, and follows proper network troubleshooting while enabling proper documentation."
+    },
+    {
+      "question": "A critical application server shows increasing memory usage over time without apparent cause. What's your first response?",
+      "options": [
+        "Restart the server immediately",
+        "Add more memory",
+        "Monitor memory allocation and application behavior while preparing diagnostic captures",
+        "Limit user connections"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring memory allocation and application behavior is correct because it systematically investigates memory issues, maintains service availability, and follows proper troubleshooting procedures while enabling root cause analysis."
+    },
+    {
+      "question": "During a live surgical webcast, viewers report that the stream becomes pixelated during detailed surgical procedures. What's your first action?",
+      "options": [
+        "Reduce streaming resolution",
+        "End and restart the stream",
+        "Monitor encoding parameters and bandwidth allocation while checking CDN performance",
+        "Switch to backup streaming server"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring encoding parameters and bandwidth allocation is correct because it systematically investigates streaming quality issues, maintains educational value, and follows proper technical procedures while ensuring optimal viewing experience for medical professionals."
+    },
+    {
+      "question": "Multiple researchers report that their GPU-accelerated analysis tools are crashing during extended computations. What's your first response?",
+      "options": [
+        "Replace the GPU cards",
+        "Run analysis without GPU",
+        "Analyze GPU utilization and thermal patterns while gathering crash dumps",
+        "Limit computation time"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing GPU utilization and thermal patterns is correct because it systematically investigates performance issues, maintains research capabilities, and follows proper troubleshooting procedures while enabling root cause identification."
+    },
+    {
+      "question": "The automated laboratory equipment calibration system fails to update instrument settings. What's your first step?",
+      "options": [
+        "Manually calibrate all instruments",
+        "Reset calibration database",
+        "Review communication protocols and device logs while verifying calibration accuracy",
+        "Replace calibration system"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing communication protocols and device logs is correct because it systematically investigates calibration issues, maintains laboratory accuracy, and follows proper troubleshooting procedures while ensuring equipment reliability."
+    },
+    {
+      "question": "Several users report that their encrypted USB drives are not recognized after a security update. What's your first action?",
+      "options": [
+        "Roll back security updates",
+        "Format the USB drives",
+        "Check encryption driver status and device compatibility while gathering error logs",
+        "Switch to unencrypted drives"
+      ],
+      "answer": 2,
+      "explanation": "Checking encryption driver status and device compatibility is correct because it systematically investigates access issues, maintains security protocols, and follows proper troubleshooting procedures while ensuring data protection."
+    },
+    {
+      "question": "The building access control system shows delayed responses during peak hours. What's your first step?",
+      "options": [
+        "Reset access control server",
+        "Disable advanced security features",
+        "Monitor system response times and user patterns while checking database performance",
+        "Switch to manual verification"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring system response times and user patterns is correct because it systematically investigates performance issues, maintains security measures, and follows proper troubleshooting procedures while ensuring building security."
+    },
+    {
+      "question": "A department's shared printer begins producing faded or streaked output on specific document types. What's your first action?",
+      "options": [
+        "Replace all printer cartridges",
+        "Clean the printer immediately",
+        "Analyze print logs and job parameters while testing different media types",
+        "Switch to backup printer"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing print logs and job parameters is correct because it systematically investigates print quality issues, maintains output reliability, and follows proper troubleshooting procedures while enabling targeted resolution."
+    },
+    {
+      "question": "Multiple users report that their mobile device certificates expire prematurely. What's your first response?",
+      "options": [
+        "Reissue all certificates",
+        "Disable certificate requirements",
+        "Check certificate authority settings and lifecycle policies while gathering expiry patterns",
+        "Switch to password-only authentication"
+      ],
+      "answer": 2,
+      "explanation": "Checking certificate authority settings and lifecycle policies is correct because it systematically investigates certificate issues, maintains security protocols, and follows proper troubleshooting procedures while ensuring proper authentication."
+    },
+    {
+      "question": "The automated software deployment system fails to update specific applications across multiple departments. What's your first step?",
+      "options": [
+        "Manual update all systems",
+        "Skip problematic applications",
+        "Review deployment policies and package integrity while mapping failure patterns",
+        "Create new deployment packages"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing deployment policies and package integrity is correct because it systematically investigates deployment issues, maintains software management, and follows proper troubleshooting procedures while ensuring successful updates."
+    },
+    {
+      "question": "Users report that specific database queries take increasingly longer to execute over time. What's your first action?",
+      "options": [
+        "Restart database services",
+        "Clear query cache",
+        "Analyze query performance and index status while monitoring resource utilization",
+        "Limit query complexity"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing query performance and index status is correct because it systematically investigates performance degradation, maintains database efficiency, and follows proper troubleshooting procedures while enabling optimization."
+    },
+    {
+      "question": "After a network upgrade, VoIP calls show quality degradation during video conferences. What's your first step?",
+      "options": [
+        "Disable video during calls",
+        "Revert network changes",
+        "Monitor QoS parameters and network utilization while testing different codecs",
+        "Switch to traditional phones"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring QoS parameters and network utilization is correct because it systematically investigates call quality issues, maintains communication effectiveness, and follows proper troubleshooting procedures while ensuring optimal performance."
+    },
+    {
+      "question": "The research department's data visualization system starts showing inconsistent results across different workstations. What's your first action?",
+      "options": [
+        "Reinstall visualization software",
+        "Use alternative visualization tools",
+        "Check rendering configurations and data sources while documenting inconsistencies",
+        "Reset to default settings"
+      ],
+      "answer": 2,
+      "explanation": "Checking rendering configurations and data sources is correct because it systematically investigates visualization accuracy, maintains research integrity, and follows proper troubleshooting procedures while ensuring reliable results."
+    },
+    {
+      "question": "Multiple users report that their automated email rules stop processing after running for several days. What's your first response?",
+      "options": [
+        "Recreate all email rules",
+        "Disable automated processing",
+        "Monitor rule execution logs and Exchange resources while gathering error patterns",
+        "Switch to manual email sorting"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring rule execution logs and Exchange resources is correct because it systematically investigates automation issues, maintains email workflow, and follows proper troubleshooting procedures while enabling pattern identification."
+    },
+    {
+      "question": "The laboratory's environmental control system shows fluctuating temperature readings. What's your first step?",
+      "options": [
+        "Replace temperature sensors",
+        "Override system controls",
+        "Analyze sensor data and calibration logs while checking environmental patterns",
+        "Switch to manual monitoring"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing sensor data and calibration logs is correct because it systematically investigates environmental control issues, maintains laboratory conditions, and follows proper troubleshooting procedures while ensuring accurate monitoring."
+    },
+    {
+      "question": "After a security update, users report increased latency when accessing cloud-based applications. What's your first action?",
+      "options": [
+        "Roll back security updates",
+        "Switch to local applications",
+        "Monitor traffic patterns and security policy impact while gathering performance metrics",
+        "Disable security features"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring traffic patterns and security policy impact is correct because it systematically investigates performance issues, maintains security measures, and follows proper troubleshooting procedures while ensuring application accessibility."
+    },
+    {
+      "question": "The automated backup verification system reports checksum mismatches for specific file types. What's your first response?",
+      "options": [
+        "Skip problematic files",
+        "Restart backup jobs",
+        "Analyze file integrity and backup procedures while testing verification processes",
+        "Switch backup software"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing file integrity and backup procedures is correct because it systematically investigates data consistency issues, maintains backup reliability, and follows proper troubleshooting procedures while ensuring data protection."
+    },
+    {
+      "question": "Multiple users report that their custom Excel macros stop working after a security update. What's your first step?",
+      "options": [
+        "Disable macro security",
+        "Recreate all macros",
+        "Review macro permissions and trust settings while gathering error details",
+        "Switch to manual procedures"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing macro permissions and trust settings is correct because it systematically investigates security restrictions, maintains productivity tools, and follows proper troubleshooting procedures while ensuring proper security measures."
+    },
+    {
+      "question": "The research department's high-performance computing cluster shows uneven workload distribution. What's your first action?",
+      "options": [
+        "Reset job scheduler",
+        "Redistribute jobs manually",
+        "Analyze node performance and scheduling patterns while monitoring resource utilization",
+        "Limit job submissions"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing node performance and scheduling patterns is correct because it systematically investigates workload issues, maintains computing efficiency, and follows proper troubleshooting procedures while ensuring optimal resource usage."
+    },
+    {
+      "question": "Users report intermittent issues with digital signature validation on PDF documents. What's your first step?",
+      "options": [
+        "Disable signature validation",
+        "Reinstall PDF software",
+        "Check certificate chain and timestamp services while documenting validation errors",
+        "Switch to alternative PDF readers"
+      ],
+      "answer": 2,
+      "explanation": "Checking certificate chain and timestamp services is correct because it systematically investigates signature validation issues, maintains document security, and follows proper troubleshooting procedures while ensuring authentication reliability."
+    },
+    {
+      "question": "The automated software license tracking system shows discrepancies between assigned and used licenses. What's your first response?",
+      "options": [
+        "Purchase additional licenses",
+        "Remove excess assignments",
+        "Verify usage metrics and allocation logs while checking reporting accuracy",
+        "Disable license tracking"
+      ],
+      "answer": 2,
+      "explanation": "Verifying usage metrics and allocation logs is correct because it systematically investigates license management issues, maintains compliance requirements, and follows proper troubleshooting procedures while ensuring accurate tracking."
+    },
+    {
+      "question": "Multiple departments report issues with network drive mapping persistence after system updates. What's your first action?",
+      "options": [
+        "Recreate all mappings",
+        "Switch to UNC paths",
+        "Analyze group policy and login scripts while gathering connection logs",
+        "Use manual mapping only"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing group policy and login scripts is correct because it systematically investigates mapping issues, maintains network access, and follows proper troubleshooting procedures while ensuring reliable connectivity."
+    },
+    {
+      "question": "During a critical research presentation, the projector system shows color calibration issues affecting medical imaging display. What's your first action?",
+      "options": [
+        "Replace the projector bulb",
+        "Switch to another room",
+        "Check color profiles and display settings while preparing backup display",
+        "Use monitor only"
+      ],
+      "answer": 2,
+      "explanation": "Checking color profiles and display settings is correct because it systematically investigates display accuracy issues, maintains presentation quality, and follows proper troubleshooting procedures while ensuring accurate medical image representation."
+    },
+    {
+      "question": "The automated lecture recording system fails to properly synchronize audio with video. What's your first response?",
+      "options": [
+        "Cancel recording sessions",
+        "Record audio separately",
+        "Analyze synchronization timing and encoder settings while testing different configurations",
+        "Use backup recording system"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing synchronization timing and encoder settings is correct because it systematically investigates audio-video sync issues, maintains recording quality, and follows proper troubleshooting procedures while ensuring educational content integrity."
+    },
+    {
+      "question": "Several users report that their multi-factor authentication push notifications are delayed significantly. What's your first step?",
+      "options": [
+        "Reset MFA for all users",
+        "Switch to SMS authentication",
+        "Monitor notification services and response times while checking connectivity patterns",
+        "Disable MFA temporarily"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring notification services and response times is correct because it systematically investigates authentication delays, maintains security protocols, and follows proper troubleshooting procedures while ensuring reliable access."
+    },
+    {
+      "question": "The document management system shows inconsistent version history after a server failover. What's your first action?",
+      "options": [
+        "Restore from backup",
+        "Freeze version control",
+        "Verify replication logs and metadata consistency while documenting discrepancies",
+        "Create new document repository"
+      ],
+      "answer": 2,
+      "explanation": "Verifying replication logs and metadata consistency is correct because it systematically investigates version control issues, maintains document integrity, and follows proper troubleshooting procedures while ensuring accurate history tracking."
+    },
+    {
+      "question": "Multiple virtual machines experience unexpected resource throttling during peak research computation hours. What's your first response?",
+      "options": [
+        "Increase resource allocation",
+        "Reduce VM workloads",
+        "Analyze host metrics and scheduling policies while monitoring performance patterns",
+        "Migrate VMs to different hosts"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing host metrics and scheduling policies is correct because it systematically investigates resource management issues, maintains computing performance, and follows proper troubleshooting procedures while ensuring optimal resource utilization."
+    },
+    {
+      "question": "The automated software patching system fails to properly report patch compliance status. What's your first step?",
+      "options": [
+        "Manually verify all patches",
+        "Disable compliance reporting",
+        "Check reporting services and update status while gathering system inventory",
+        "Generate new baseline"
+      ],
+      "answer": 2,
+      "explanation": "Checking reporting services and update status is correct because it systematically investigates compliance tracking issues, maintains patch management, and follows proper troubleshooting procedures while ensuring accurate reporting."
+    },
+    {
+      "question": "Users report that specific SharePoint workflows stop responding at random stages. What's your first action?",
+      "options": [
+        "Restart workflow services",
+        "Recreate affected workflows",
+        "Monitor workflow execution and permission states while mapping failure points",
+        "Switch to manual processes"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring workflow execution and permission states is correct because it systematically investigates automation issues, maintains business processes, and follows proper troubleshooting procedures while enabling pattern identification."
+    },
+    {
+      "question": "The network monitoring system shows increasing packet loss on specific VLAN segments. What's your first step?",
+      "options": [
+        "Reboot network switches",
+        "Redistribute network traffic",
+        "Analyze traffic patterns and interface statistics while checking for congestion points",
+        "Disable affected VLANs"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing traffic patterns and interface statistics is correct because it systematically investigates network performance issues, maintains connectivity quality, and follows proper troubleshooting procedures while enabling targeted resolution."
+    },
+    {
+      "question": "Several users report that their offline file synchronization creates duplicate copies after network interruptions. What's your first response?",
+      "options": [
+        "Disable offline files",
+        "Delete duplicate copies",
+        "Review sync logs and cache behavior while testing network stability",
+        "Switch to online-only files"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing sync logs and cache behavior is correct because it systematically investigates synchronization issues, maintains file accessibility, and follows proper troubleshooting procedures while ensuring data consistency."
+    },
+    {
+      "question": "The research data backup system reports increasing deduplication ratios without apparent cause. What's your first action?",
+      "options": [
+        "Disable deduplication",
+        "Start new backup chain",
+        "Analyze storage patterns and file changes while verifying backup integrity",
+        "Compress backup data"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing storage patterns and file changes is correct because it systematically investigates backup efficiency issues, maintains data protection, and follows proper troubleshooting procedures while ensuring optimal storage utilization."
+    },
+    {
+      "question": "The automated research data archival system shows inconsistent metadata tagging across departments. What's your first action?",
+      "options": [
+        "Reset all metadata tags",
+        "Disable automated tagging",
+        "Analyze tagging patterns and classification rules while documenting inconsistencies",
+        "Switch to manual tagging"
+      ],
+      "answer": 2,
+      "explanation": "Analyzing tagging patterns and classification rules is correct because it systematically investigates metadata accuracy, maintains data organization, and follows proper troubleshooting procedures while ensuring consistent archival practices."
+    },
+    {
+      "question": "Multiple users report that their cloud-based development environments become unresponsive during complex compilations. What's your first response?",
+      "options": [
+        "Move to local development",
+        "Simplify compilation tasks",
+        "Monitor resource allocation and scaling behavior while gathering performance metrics",
+        "Reset development instances"
+      ],
+      "answer": 2,
+      "explanation": "Monitoring resource allocation and scaling behavior is correct because it systematically investigates performance issues, maintains development capabilities, and follows proper troubleshooting procedures while ensuring optimal resource usage."
+    },
+    {
+      "question": "The conference room scheduling system shows booking conflicts despite available calendar integration. What's your first step?",
+      "options": [
+        "Clear all bookings",
+        "Disable calendar integration",
+        "Verify synchronization status and booking rules while mapping conflict patterns",
+        "Switch to manual booking"
+      ],
+      "answer": 2,
+      "explanation": "Verifying synchronization status and booking rules is correct because it systematically investigates scheduling issues, maintains room availability, and follows proper troubleshooting procedures while ensuring accurate booking management."
+    },
+    {
+      "question": "Users report that specific internal web applications become inaccessible after changing their passwords. What's your first action?",
+      "options": [
+        "Reset application pools",
+        "Clear browser caches",
+        "Check authentication flow and session management while gathering access patterns",
+        "Revert password changes"
+      ],
+      "answer": 2,
+      "explanation": "Checking authentication flow and session management is correct because it systematically investigates access issues, maintains application security, and follows proper troubleshooting procedures while ensuring user accessibility."
+    },
+    {
+      "question": "The automated software license compliance system flags multiple false positives. What's your first step?",
+      "options": [
+        "Disable compliance checking",
+        "Ignore false positives",
+        "Review detection rules and inventory data while documenting error patterns",
+        "Reset compliance baseline"
+      ],
+      "answer": 2,
+      "explanation": "Reviewing detection rules and inventory data is correct because it systematically investigates compliance accuracy, maintains license management, and follows proper troubleshooting procedures while ensuring correct reporting."
+    }
+  ]
+}
