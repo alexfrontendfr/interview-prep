@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Interview_Prep/flashcard-app/static/css/main.34e7e5ec.css",
-    "main.js": "/Interview_Prep/flashcard-app/static/js/main.7a77212c.js",
-    "index.html": "/Interview_Prep/flashcard-app/index.html",
-    "main.34e7e5ec.css.map": "/Interview_Prep/flashcard-app/static/css/main.34e7e5ec.css.map",
-    "main.7a77212c.js.map": "/Interview_Prep/flashcard-app/static/js/main.7a77212c.js.map"
+    "main.css": "/interview-prep/static/css/main.34e7e5ec.css",
+    "main.js": "/interview-prep/static/js/main.7a77212c.js",
+    "index.html": "/interview-prep/index.html",
+    "main.34e7e5ec.css.map": "/interview-prep/static/css/main.34e7e5ec.css.map",
+    "main.7a77212c.js.map": "/interview-prep/static/js/main.7a77212c.js.map"
   },
   "entrypoints": [
     "static/css/main.34e7e5ec.css",
